@@ -1,0 +1,37 @@
+
+
+
+#pointyTop{
+    background-image: linear-gradient(180deg, rgba(82, 4, 4, 0.479) 50%, rgba(39, 35, 35, 0.651) 80%), url(../images/dlPic2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    height: 90vh;
+}
+#headerTron{
+text-align: center;
+padding-top: 47%;
+color: white;
+}
+#bio{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.616);
+    height: 40vh;
+    margin-left: 2%;
+}
+#sideSection{
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+}
+.secHead{
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Righteous|Tomorrow&display=swap'); */
+/* 
+font-family: 'Tomorrow', sans-serif;
+font-family: 'Righteous', cursive; */
