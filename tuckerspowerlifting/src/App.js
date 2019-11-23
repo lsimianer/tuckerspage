@@ -18,7 +18,8 @@ function App() {
         <Route exact path="/Training" component={Training} />
         <Route exact path="/Philosophy" component={Philosophy} />
         <Route exact path="/Education" component={Education} />
-        
+        <Route path='/gram' component={() => window.location = 'https://www.instagram.com/tuckslifting/?hl=en'}/>
+
           <Route path='*' component={NoMatch} />
         </Switch>
       </div>

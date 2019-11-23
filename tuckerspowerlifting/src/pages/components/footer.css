@@ -7,7 +7,7 @@
 }
 #insta:hover{
     transform: scale(1.1);
-    color: rgb(3, 152, 211);
+    color: rgb(151, 6, 6);
 }
 
 #footText{
@@ -19,7 +19,6 @@
 #footText:hover{
     transform: scale(1.03);
     color: rgb(151, 6, 6);
-
 }
 #footCon{
     background-color: transparent;

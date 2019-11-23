@@ -17,18 +17,18 @@ return (
         </Col>
       </Row>
          <br/>
-         <br/>
-         <Row>
+         
+         {/* <Row>
             <Col>
-              <h3 id='footText'> Nick@coachrhino.com</h3>
+              <h3 id='footText'> Tucker@gmail.com</h3>
             </Col>
             <Col>
-              <h3 id='footText'>&copy; 2019 brphysiques</h3>
+              <h3 id='footText'>&copy; 2019 Tucker Endersbee</h3>
             </Col>
             <Col>
-                <Link to='/CodeHounds' target='_blank'><h3 id='footText'>A CodeHounds Website</h3></Link>
+            <h3 id='footText'>&copy; 2019 Tucks Training</h3>
             </Col>
-         </Row>
+         </Row> */}
 
         </Container>
     </div>
