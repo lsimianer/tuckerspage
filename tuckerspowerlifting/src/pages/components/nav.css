@@ -15,7 +15,11 @@
 
 #linkies {
     display: inline-flex;
-    padding-left: 30%;
+}
+
+.navbar {
+    text-align: center;
+    display: block;
 }
 
 #navImg {
@@ -60,50 +64,34 @@ nav {
     color: rgb(151, 6, 6);
 }
 
-
+#theNavbar {
+    margin-top: 2%;
+}
 
 
 @-webkit-keyframes pulse {
     0% {
-        background-color: rgb(242, 248, 250);
-    }
-
-    25% {
-        background-color: rgb(155, 234, 253);
+        background-color: rgb(247, 247, 247);
     }
 
     50% {
-        background-color: rgb(95, 193, 238);
+        background-color: rgb(129, 0, 0);
     }
-
-    75% {
-        background-color: rgb(41, 158, 194);
-    }
-
     100% {
-        background-color: rgb(247, 246, 245);
+        background-color: rgb(247, 247, 247);
     }
 }
 
 @keyframes pulse {
     0% {
-        background-color: rgb(242, 248, 250);
-    }
-
-    25% {
-        background-color: rgb(155, 234, 253);
+        background-color: rgb(247, 247, 247);
     }
 
     50% {
-        background-color: rgb(95, 193, 238);
+        background-color: rgb(129, 0, 0);
     }
-
-    75% {
-        background-color: rgb(41, 158, 194);
-    }
-
     100% {
-        background-color: rgb(247, 246, 245);
+        background-color: rgb(247, 247, 247);
     }
 }
 

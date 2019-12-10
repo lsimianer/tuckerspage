@@ -1,28 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
 
-#insta{
+#insta {
     color: white;
     font-size: 2.5rem;
     /* margin-top: 12%; */
 }
-#insta:hover{
+
+#insta:hover {
     transform: scale(1.1);
     color: rgb(151, 6, 6);
 }
 
-#footText{
+#footText {
     font-size: 1.25rem;
     line-height: 25px;
     color: white;
     font-family: 'Squada One', cursive;
 }
-#footText:hover{
+
+#footText:hover {
     transform: scale(1.03);
     color: rgb(151, 6, 6);
 }
-#footCon{
+
+#footCon {
     margin-top: 5%;
     background-color: transparent;
     height: 25vw;
     text-align: center;
+}
+
+@media screen and (max-width: 70em) {
+    #footCon {
+        margin-top: 55vh;
+    }
 }

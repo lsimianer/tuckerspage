@@ -10,6 +10,10 @@ body html {
 
 @import url('https://fonts.googleapis.com/css?family=Bangers|Squada+One&display=swap');
 
+#header {
+    margin: 0 auto;
+}
+
 #headerCon {
     background-image: linear-gradient(180deg, rgba(82, 4, 4, 0.479) 50%, rgba(39, 35, 35, 0.651) 80%), url(../images/dlPic2.jpg);
     width: 100%;
@@ -20,6 +24,8 @@ body html {
     background-position: center;
     text-align: center;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    position: relative;
+    z-index: 1;
 }
 
 #headTextDiv {
@@ -38,9 +44,11 @@ body html {
 }
 
 #bioCon {
-    background-color: transparent;
-    margin-top: -6%;
+    background-color: rgba(0, 0, 0, 0.781);
     height: 50vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);    margin-top: -6%;
+    position: relative;
+    z-index: 0;
 }
 
 #bioDiv {
@@ -80,6 +88,39 @@ body {
 
 }
 
+.trainingSecHead~h3 {
+    color: rgb(75, 2, 2);
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
+}
+
+@media screen and (max-width: 70em) {
+    #statsCon {
+        height: 100vh;
+    }
+
+    .trainingSecHead~h3 {
+        color: rgb(75, 2, 2);
+        text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
+    }
+
+    #trainingCon {
+        padding-bottom: 90%;
+    }
+
+    #educationCon {
+        padding-bottom: 90%;
+    }
+    #bioCon{
+        padding-top: 29%;
+        margin-top: -29%;
+        height: fit-content;
+        padding-bottom: 5%;
+    }
+    #header{
+        margin-top: -26%;
+    }
+}
+
 #bockdiv {
     text-align: center;
     padding-top: 10%;
@@ -94,7 +135,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.781);
     text-align: center;
-    height: 60vh;
+    height: fit-content;
     overflow-y: scroll;
     border-radius: 25px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
@@ -129,10 +170,11 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.781);
     text-align: center;
-    height: 90vh;
+    height: fit-content;
     overflow-y: scroll;
     border-radius: 25px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+    padding-bottom: 5%;
 }
 
 .secHead {
@@ -143,10 +185,12 @@ body {
 .blockHead {
     padding-top: 2.5%;
     font-family: 'Squada One', cursive;
-    color: white;
-    font-size: 3.85rem;
+    color: rgb(75, 2, 2);
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;    font-size: 3.85rem;
 }
-.lastOne{
+
+.lastOne {
     margin-bottom: 25%;
 }
+
 /* media screen this, it doesnt need to be 25% in desktop size leave as is until mobile testing as mobile is mvp */

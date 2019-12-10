@@ -10,7 +10,7 @@ const NavCom = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar id='theNavbar' color="faded" light>
             <div id="linkies">
               <NavLink id='noCol' href="/">Home</NavLink>
               <NavLink id='noCol' href="/Training">Training</NavLink>
