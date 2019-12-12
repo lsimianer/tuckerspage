@@ -120,7 +120,9 @@ body {
         margin-top: -26%;
     }
 }
-
+.eduText{
+    text-indent: 40px;
+}
 #bockdiv {
     text-align: center;
     padding-top: 10%;

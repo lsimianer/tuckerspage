@@ -20,7 +20,7 @@ return (
           <br/>         
           <Row>
               <Col>
-                  <h3 id='footText'> Tucker@gmail.com</h3>
+                  <h3 id='footText'> Tucker.M.End@gmail.com</h3>
               </Col>
               <Col>
                   <h3 id='footText'>&copy; 2019 Tucker Endersbee</h3>
